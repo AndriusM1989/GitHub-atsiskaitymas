@@ -1,5 +1,7 @@
 body {
   background-image: url(./task/resources/bg.jpg);
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.308);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,10 +38,12 @@ body {
         text-align: center;
         letter-spacing: 3px;
       }
-      > h3 {
+      > h5 {
         text-align: justify;
         font-weight: 100;
         line-height: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
         > a{
           color: white;
           text-decoration: underline;
