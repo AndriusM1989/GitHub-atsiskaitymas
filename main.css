@@ -41,13 +41,19 @@ body > main > section:nth-child(2) > h3 {
   text-align: justify;
   font-weight: 100;
 }
+body > main > section:nth-child(2) > h3 > a {
+  color: white;
+}
+body > main > section:nth-child(2) > h3 > a:hover {
+  color: rgb(54, 54, 189);
+}
 body > main > section:nth-child(3) {
   display: flex;
   justify-content: center;
   height: 50px;
 }
 body > main > section:nth-child(3) > div:first-child {
-  border: 1px solid white;
+  border-right: 1px solid white;
 }
 body > main > section:last-child {
   height: 200px;

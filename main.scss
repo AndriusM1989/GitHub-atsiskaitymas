@@ -39,6 +39,12 @@ body {
       > h3 {
         text-align: justify;
         font-weight: 100;
+        > a{
+          color: white;
+        }
+        > a:hover{
+          color: rgb(54, 54, 189);
+        }
       }
     }
     > section:nth-child(3) {
@@ -46,7 +52,7 @@ body {
       justify-content: center;
       height: 50px;
       > div:first-child {
-        border: 1px solid white;
+        border-right: 1px solid white;
       }
     }
     > section:last-child {
