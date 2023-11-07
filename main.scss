@@ -42,7 +42,6 @@ body {
         text-align: justify;
         font-weight: 100;
         line-height: 2rem;
-        font-family: "Courier New", Courier, monospace;
         letter-spacing: 2px;
         > a {
           color: white;
@@ -65,8 +64,6 @@ body {
     > section:nth-child(4) {
       display: flex;
       flex-direction: column;
-      height: 200px;
-      padding-bottom: 100px;
       > button {
         width: 100%;
         background-color: rgba(255, 255, 255, 0);
