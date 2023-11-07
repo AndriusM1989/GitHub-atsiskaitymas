@@ -12,8 +12,8 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 120px;
-      > svg{
+      padding-top: 150px;
+      > svg {
         color: white;
         padding: 20px;
         border: 1px solid white;
@@ -42,14 +42,14 @@ body {
         text-align: justify;
         font-weight: 100;
         line-height: 2rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: "Courier New", Courier, monospace;
         letter-spacing: 2px;
-        > a{
+        > a {
           color: white;
           text-decoration: underline;
           text-decoration-style: dotted;
         }
-        > a:hover{
+        > a:hover {
           color: rgb(54, 54, 189);
         }
       }
@@ -77,13 +77,39 @@ body {
           display: none;
         }
       }
-      > div:first-child > button{
+      > div:first-child > button {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
       }
-      > div:last-child > button{
+      > div:last-child > button {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  body > main {
+    > section:first-child {
+      padding-top: 250px;
+    }
+    > section:nth-child(2) {
+      display: flex;
+      height: 250px;
+      justify-content: center;
+      > h1 {
+        font-size: 50px;
+      }
+      > h5 {
+        text-align: center;
+      }
+    }
+    > section:last-child {
+      display: flex;
+      justify-content: center;
+      > div > button {
+        width: 150px;
       }
     }
   }
