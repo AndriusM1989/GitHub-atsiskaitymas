@@ -1,3 +1,6 @@
-main > section:first-child {
-  color: red;
+body {
+  background-image: url(./task/resources/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */
