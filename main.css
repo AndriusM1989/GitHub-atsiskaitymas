@@ -87,12 +87,13 @@ body > main > section:nth-child(4) > div:last-child > button {
 body > main > section:last-child {
   display: flex;
   justify-content: center;
+  padding: 30px;
+  height: 100%;
 }
 body > main > section:last-child > div {
   display: none;
   flex-direction: column;
-  width: 70%;
-  height: 600px;
+  width: 700px;
   color: white;
   background-color: #192228;
   padding: 30px;
@@ -100,12 +101,16 @@ body > main > section:last-child > div {
 body > main > section:last-child > div > div {
   display: flex;
   justify-content: space-between;
-  height: 10%;
+  align-items: center;
+  height: 50px;
   padding-bottom: 20px;
 }
 body > main > section:last-child > div > div > h1 {
   text-decoration: underline;
   letter-spacing: 3px;
+}
+body > main > section:last-child > div > div > img {
+  height: 40px;
 }
 body > main > section:last-child > div > img {
   width: 100%;
