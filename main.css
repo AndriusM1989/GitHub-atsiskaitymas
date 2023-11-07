@@ -63,6 +63,8 @@ body > main > section:nth-child(3) > div:first-child {
   border-right: 1px solid white;
 }
 body > main > section:nth-child(4) {
+  display: flex;
+  flex-direction: column;
   height: 200px;
   padding-bottom: 100px;
 }
@@ -93,7 +95,7 @@ body > main > section:last-child {
 body > main > section:last-child > div {
   display: none;
   flex-direction: column;
-  width: 700px;
+  width: 300px;
   color: white;
   background-color: #192228;
   padding: 30px;
@@ -111,6 +113,10 @@ body > main > section:last-child > div > div > h1 {
 }
 body > main > section:last-child > div > div > img {
   height: 40px;
+}
+body > main > section:last-child > div > div > img:hover {
+  transform: rotate(90deg);
+  transition: 2000ms;
 }
 body > main > section:last-child > div > img {
   width: 100%;
@@ -137,9 +143,13 @@ body > main > section:last-child > div > iframe {
   }
   body > main > section:nth-child(4) {
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
   body > main > section:nth-child(4) > button {
     width: 150px;
+  }
+  body > main > section:last-child > div {
+    width: 700px;
   }
 }/*# sourceMappingURL=main.css.map */

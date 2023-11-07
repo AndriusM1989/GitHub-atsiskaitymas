@@ -63,6 +63,8 @@ body {
       }
     }
     > section:nth-child(4) {
+      display: flex;
+      flex-direction: column;
       height: 200px;
       padding-bottom: 100px;
       > button {
@@ -92,7 +94,7 @@ body {
       > div {
         display: none;
         flex-direction: column;
-        width: 700px;
+        width: 300px;
         color: white;
         background-color: #192228;
         padding: 30px;
@@ -108,6 +110,10 @@ body {
           }
           > img{
             height: 40px;
+          }
+          >img:hover{
+            transform: rotate(90deg);
+            transition: 2000ms;
           }
         }
         > img {
@@ -140,10 +146,14 @@ body {
     }
     > section:nth-child(4) {
       display: flex;
+      flex-direction: row;
       justify-content: center;
       > button {
         width: 150px;
       }
+    }
+    > section:last-child > div{
+      width: 700px;
     }
   }
 }
