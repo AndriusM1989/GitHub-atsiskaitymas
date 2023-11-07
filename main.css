@@ -14,8 +14,8 @@ body > main > section:first-child {
   align-items: center;
   padding-top: 150px;
 }
-body > main > section:first-child > svg {
-  color: white;
+body > main > section:first-child > img {
+  height: 30px;
   padding: 20px;
   border: 1px solid white;
   border-radius: 100px;
@@ -62,27 +62,57 @@ body > main > section:nth-child(3) {
 body > main > section:nth-child(3) > div:first-child {
   border-right: 1px solid white;
 }
-body > main > section:last-child {
+body > main > section:nth-child(4) {
   height: 200px;
   padding-bottom: 100px;
 }
-body > main > section:last-child > div > button {
+body > main > section:nth-child(4) > button {
   width: 100%;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   height: 50px;
   color: white;
 }
-body > main > section:last-child > div > div {
-  display: none;
+body > main > section:nth-child(4) > button:hover {
+  background-color: rgba(255, 255, 255, 0.151);
 }
-body > main > section:last-child > div:first-child > button {
+body > main > section:nth-child(4) > div:first-child > button {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-body > main > section:last-child > div:last-child > button {
+body > main > section:nth-child(4) > div:last-child > button {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+body > main > section:last-child {
+  display: flex;
+  justify-content: center;
+}
+body > main > section:last-child > div {
+  display: none;
+  flex-direction: column;
+  width: 70%;
+  height: 600px;
+  color: white;
+  background-color: #192228;
+  padding: 30px;
+}
+body > main > section:last-child > div > div {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  padding-bottom: 20px;
+}
+body > main > section:last-child > div > div > h1 {
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+body > main > section:last-child > div > img {
+  width: 100%;
+}
+body > main > section:last-child > div > iframe {
+  width: 100%;
+  height: 290px;
 }
 
 @media (min-width: 768px) {
@@ -100,11 +130,11 @@ body > main > section:last-child > div:last-child > button {
   body > main > section:nth-child(2) > h5 {
     text-align: center;
   }
-  body > main > section:last-child {
+  body > main > section:nth-child(4) {
     display: flex;
     justify-content: center;
   }
-  body > main > section:last-child > div > button {
+  body > main > section:nth-child(4) > button {
     width: 150px;
   }
 }/*# sourceMappingURL=main.css.map */
