@@ -45,3 +45,5 @@ document.getElementById("mygtukai").addEventListener("click", (e) => {
   }
 })
 
+// pirmas keturias sekcijas buvo galima sudėti į vieną sekciją ir atskirti divais, tada būtų mažiau eilučių norint paslėpti elementus, bet tai sugalvojau per vėlai ir būtų tekę daug perdaryti. Todėl dabar yra tiek daug eilučių javascript'e.
+
