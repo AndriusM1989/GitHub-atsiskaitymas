@@ -40,9 +40,12 @@ body > main > section:nth-child(2) > h1 {
 body > main > section:nth-child(2) > h3 {
   text-align: justify;
   font-weight: 100;
+  line-height: 2rem;
 }
 body > main > section:nth-child(2) > h3 > a {
   color: white;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 body > main > section:nth-child(2) > h3 > a:hover {
   color: rgb(54, 54, 189);

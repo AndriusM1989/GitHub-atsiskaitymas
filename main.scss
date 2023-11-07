@@ -39,8 +39,11 @@ body {
       > h3 {
         text-align: justify;
         font-weight: 100;
+        line-height: 2rem;
         > a{
           color: white;
+          text-decoration: underline;
+          text-decoration-style: dotted;
         }
         > a:hover{
           color: rgb(54, 54, 189);
